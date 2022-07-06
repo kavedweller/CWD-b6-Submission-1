@@ -60,3 +60,28 @@ body {
 }
 
 /* Texts-on-top-ends */
+
+/* Donate-texts-div */
+.middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    padding-top: 75px;
+}
+
+.donate-today-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.donate-today-text {
+    max-width: 65%;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /* margin-top: 5px; */
+}
