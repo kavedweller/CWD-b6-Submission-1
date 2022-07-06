@@ -14,15 +14,40 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    width: 900px;
 }
 
 .bigger-texts {
     color: lightslategray;
     font-family: Arial, sans-serif;
-    font-size: 32px;
+    font-size: 65px;
     font-weight: 700;
     text-align: center;
 }
 
+.top-middle-texts {
+    font-family: 'Poppins', sans-serif;
+    font: 20px;
+}
+
+.donate-btn {
+    background-color: rgb(255, 89, 89);
+    border-radius: 8px 8px 8px 8px;
+    height: 60px;
+    margin-top: 15px;
+    min-width: 160px;
+}
+
+.donate-txt {
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 /* Texts-on-top-ends */
