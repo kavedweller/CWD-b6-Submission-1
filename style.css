@@ -8,84 +8,21 @@
     font: 400;
 }
 
-.top-container {
+/* Texts-on-top */
+
+.top-texts-container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    left: 307px;
-    min-height: 320px;
-    position: absolute;
-    top: 174px;
-    width: 830px;
 }
-
 
 .bigger-texts {
-    color: var(--white);
+    color: lightslategray;
     font-family: Arial, sans-serif;
     font-size: 32px;
-    font-weight: 900;
-    letter-spacing: 0;
-    margin-right: 4px;
-    min-height: 158px;
+    font-weight: 700;
     text-align: center;
-    width: 826px;
 }
 
-/* Strt- of subscribe-box */
-.subscribe-box {
-    align-items: center;
-    display: flex;
-    height: 200px;
-    justify-content: center;
-    margin-left: 1px;
-    margin-top: 50px;
-    /* min-width: 809px; */
-    padding: 0 188px;
-}
 
-.text-box-email {
-    align-items: center;
-    background-color: lightgray;
-    border-radius: 8px 0px 0px 8px;
-    display: flex;
-    height: 48px;
-    min-width: 250px;
-    padding: 0 17px;
-}
-
-.email-txt {
-    color: #aa9e9e;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 20px;
-    min-height: 20px;
-    min-width: 40px;
-    text-align: center;
-    /* white-space: nowrap; */
-}
-
-.subscribe-btn {
-    align-items: center;
-    background-color: rgb(255, 89, 89);
-    border-radius: 0px 8px 8px 0px;
-    display: flex;
-    height: 48px;
-    min-width: 50px;
-    padding: 0 42px;
-}
-
-.subscribe-txt {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 20px;
-    min-height: 20px;
-    min-width: 72px;
-    text-align: center;
-    /* white-space: nowrap; */
-}
-
-/* end of subscribe-box */
+/* Texts-on-top-ends */
