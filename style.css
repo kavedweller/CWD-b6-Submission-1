@@ -46,6 +46,8 @@ h2 {
 }
 
 .donate-btn {
+    align-items: center;
+    text-align: center;
     background-color: rgb(255, 89, 89);
     border-radius: 8px 8px 8px 8px;
     height: 60px;
@@ -54,13 +56,14 @@ h2 {
     cursor: pointer;
 }
 
-.donate-txt {
+.donate-btntxt {
     line-height: 60px;
+    width: 160px;
     color: white;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 /* Texts-on-top-ends */
@@ -148,6 +151,18 @@ input[type=number] {
     border-radius: 4px;
 }
 
+.link-button {
+    background-color: rgb(255, 89, 89);
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    /* margin-left: 5%; */
+}
+
 /* Donation Plan Cards */
 
 .card-container {
@@ -218,8 +233,10 @@ input[type=number] {
 }
 
 .article-container {
+    padding-top: 5%;
+    padding-left: 5%;
     height: 300px;
-    width: 1200px;
+    width: 1140px;
 
     display: flex;
     justify-content: space-between
@@ -231,22 +248,10 @@ input[type=number] {
 }
 
 
-.link-button {
-    background-color: rgb(255, 89, 89);
-    padding: 10px 40px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: 700;
-    border-radius: 8px;
-    text-decoration: none;
-    cursor: pointer;
-    margin-left: 5%;
-}
-
 .article-image {
     margin-left: auto;
     padding: 0%;
-    margin-top: -%;
+    /* margin-top: 5%; */
     height: 450px;
     width: 450px;
     object-fit: contain;
@@ -258,4 +263,87 @@ input[type=number] {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.article-button {
+    margin-left: 5%;
+}
+
+/* Start- of subscription-box */
+.subscribe-box {
+    margin: 25% 5%;
+    background-color: bisque;
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin-left: 1px;
+    margin-top: 50px;
+    padding: 50px 50px;
+    border-radius: 8px;
+}
+
+.text-box-email {
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    height: 48px;
+    min-width: 250px;
+    padding: 0 17px;
+}
+
+.email-txt {
+    color: #aa9e9e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.subscribe-btn {
+    align-items: center;
+    background-color: rgb(255, 89, 89);
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    height: 48px;
+    min-width: 50px;
+    padding: 0 42px;
+}
+
+.subscribe-txt {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 72px;
+    text-align: center;
+}
+
+section {
+    margin: 15%;
+    align-content: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    width: 1200px;
+    font-weight: 400;
+    color: salmon;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+.footer-smalltext {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
 }
