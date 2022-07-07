@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+}
+
 .top-container {
     display: flex;
     align-items: center;
@@ -151,7 +155,7 @@ input[type=number] {
     align-items: center;
     display: flex;
     height: 352px;
-    margin-left: 5%;
+    padding-left: 75px;
     margin-top: 50px;
     min-width: 1128px;
 }
@@ -206,4 +210,52 @@ input[type=number] {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Article container */
+.half-width {
+    width: 50%;
+}
+
+.article-container {
+    height: 300px;
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-between
+}
+
+.article-box {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+
+.link-button {
+    background-color: rgb(255, 89, 89);
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+.article-image {
+    margin-left: auto;
+    padding: 0%;
+    margin-top: -%;
+    height: 450px;
+    width: 450px;
+    object-fit: contain;
+}
+
+.article-text {
+    margin-top: 10%;
+    padding: 5% 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
