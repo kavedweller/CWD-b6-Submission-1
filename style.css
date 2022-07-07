@@ -70,14 +70,14 @@ body {
     padding-top: 75px;
 }
 
-.donate-today-title {
+.donate-text-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 32px;
     text-align: center;
 }
 
-.donate-today-text {
+.donate-text {
     max-width: 65%;
     color: gray;
     font-family: 'Poppins', sans-serif;
@@ -92,7 +92,7 @@ body {
 }
 
 .donate-fixed-amount-div {
-    margin: 10%;
+    margin-left: 12%;
     padding-top: 30px;
     justify-content: center;
     align-items: stretch;
@@ -104,20 +104,22 @@ body {
     text-align: center;
     background-color: rgb(239, 239, 239);
     font-family: 'Poppins', sans-serif;
-    color: gray;
+    color: grey;
     font-size: 28px;
     font-weight: 600;
     border-radius: 8px;
     line-height: 120px;
     height: 120px;
     min-width: 120px;
-    margin-left: 10px;
+    margin: 10px;
     cursor: pointer;
+    border: 3px solid;
+    border-color: rgb(239, 239, 239);
 }
 
 .donate-fixed-amount-selected {
     background-color: #ffeeee;
-    border: 4px solid;
+    border: 3px solid;
     border-color: rgb(255, 89, 89);
 }
 
@@ -125,13 +127,14 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: center;
+    padding-top: 2%;
     margin-left: 12%;
     width: 900px;
 }
 
 input[type=number] {
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: lightgray;
     font-weight: 500;
     text-align: center;
@@ -139,4 +142,68 @@ input[type=number] {
     box-sizing: border-box;
     border: 0px;
     border-radius: 4px;
+}
+
+/* Donation Plan Cards */
+
+.card-container {
+
+    align-items: center;
+    display: flex;
+    height: 352px;
+    margin-left: 5%;
+    margin-top: 50px;
+    min-width: 1128px;
+}
+
+.card-food {
+    align-items: flex-start;
+    background-color: #4f9da61a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    padding: 20px 18px;
+    width: 300px;
+}
+
+.card-shelter {
+    align-items: flex-start;
+    background-color: #ff59591a;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    min-height: 300px;
+    padding: 20px 18px;
+    width: 300px;
+}
+
+.card-education {
+    align-items: flex-start;
+    background-color: rgb(255, 244, 213);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    min-height: 300px;
+    padding: 20px 18px;
+    width: 300px;
+}
+
+.card-icons {
+    height: 48px;
+    width: 48px;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-texts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
